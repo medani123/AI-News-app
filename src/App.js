@@ -41,7 +41,11 @@ const App = () => {
   return (
     <div>
       <div className={classes.logoContainer}>
-        <img src='../AI.jpg' alt='alanLogo' className={classes.alanLogo} />
+        <img
+          src='https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1138781799%2F0x0.jpg%3FcropX1%3D28%26cropX2%3D7436%26cropY1%3D0%26cropY2%3D4166'
+          alt='alanLogo'
+          className={classes.alanLogo}
+        />
       </div>
       <NewsCards articles={newsAtricles} activeAtricle={activeAtricle} />
     </div>
